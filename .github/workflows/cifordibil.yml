@@ -8,7 +8,7 @@ jobs:
     steps:
     - name: Ruby
       run: |
-        echo "HI!"
+#        echo "HI!"
         sudo apt-get install ruby-full
         echo $(ruby -v)
 
