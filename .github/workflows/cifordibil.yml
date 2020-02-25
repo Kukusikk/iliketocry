@@ -7,7 +7,9 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - name: Ruby
-      run: echo "HI!"
+      run: |
+        echo "HI!"
+        sudo apt-get install ruby-full
 
 #          gem install bundler
 #          bundle install --jobs 4 --retry 3
