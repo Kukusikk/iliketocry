@@ -6,12 +6,15 @@ jobs:
   mytesting:
     runs-on: ubuntu-latest
     steps:
+    - name: work with git
+      uses: actions/checkout@v2
+
     - name: Ruby
       run: |
 #        echo "HI!"
         ls
-        sudo apt-get install ruby-full
-        echo $(ruby -v)
+#        sudo apt-get install ruby-full
+#        echo $(ruby -v)
 
 #          gem install bundler
 #          bundle install --jobs 4 --retry 3
