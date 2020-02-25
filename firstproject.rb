@@ -143,4 +143,8 @@ def wantputsallreports()
   puts volumeadditionaldrives(arraydata,n,hdd_type)
 end
 
-wantputsallreports()
+
+
+if caller.length == 0
+  wantputsallreports()
+end

@@ -8,8 +8,10 @@
       <sourceFolder url="file://$MODULE_DIR$/features" isTestSource="true" />
       <sourceFolder url="file://$MODULE_DIR$/spec" isTestSource="true" />
       <sourceFolder url="file://$MODULE_DIR$/test" isTestSource="true" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/cache" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="library" scope="PROVIDED" name="bundler (v2.1.4, rbenv: 2.7.0) [gem]" level="application" />
   </component>
 </module>
