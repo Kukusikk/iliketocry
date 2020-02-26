@@ -12,7 +12,7 @@ jobs:
     - name: Ruby
       run: |
         sudo apt-get install ruby-full -y
-        irb fileforstudyci.rb
+        irb testfordibil/testing.rb
 #        echo $(ruby -v)
 
 #          gem install bundler
