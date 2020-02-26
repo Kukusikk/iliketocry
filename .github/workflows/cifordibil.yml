@@ -11,9 +11,8 @@ jobs:
 
     - name: Ruby
       run: |
-#        echo "HI!"
-        ls
-#        sudo apt-get install ruby-full
+        sudo apt-get install ruby-full -y
+        irb testfordibil/testing.rb
 #        echo $(ruby -v)
 
 #          gem install bundler
