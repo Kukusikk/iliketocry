@@ -12,6 +12,7 @@ jobs:
     - name: Ruby
       run: |
         sudo apt-get install ruby-full -y
+        irb fileforstudyci.rb
 #        echo $(ruby -v)
 
 #          gem install bundler
